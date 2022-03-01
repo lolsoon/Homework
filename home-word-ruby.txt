@@ -1,0 +1,37 @@
+1, viết 1 chương trình giải phương trình bậc 1. với các giá trị được nhập vào từ bàn phím. bất kỳ
+2, viết 1 chương trình giải phương trình bậc 2. với các giá trị được nhập vào từ bàn phím. bất kỳ
+3, sắp xếp 1 mảng bất kỳ. với giá trị được nhập vào từ bàn phím. không được sử dụng sort
+4, tìm max và tìm min 1 mảng bất kỳ. với giá trị được nhập vào từ bàn phím. không được sử dụng min max
+5, tính diện tích, chu vi, hình tròn, hình vuông, hình tam giac
+6, nhập chữ bất kỳ khi xuất ra phải là viết hoa hết, viết thường, xóa ký tự, xóa vị trí
+# 5, nếu cho em 2 biến số. em hay hoán đổi vị trí của chúng mà không cần sử dụng đến biến thứ 3
+
+th1: a = 0
+          b = 0
+              c = 0
+              c != 0
+          b != 0
+th2:    a != 0
+
+      delta == 0
+      delta > 0
+      delta < 0
+
+
+a = 2
+b = 1
+
+a = a + b # 3
+
+b = a - b # 3 - 1
+
+a = a - b # 3 - 2
+
+menu:
+1. tính chu vi và ds tam giac
+2. tính chu vi và ds tron
+3. tính chu vi và ds vuong
+
+hãy chọn hình bạn muốn tính: 1
+
+hãy nhập 3 cạnh của hình tam giác

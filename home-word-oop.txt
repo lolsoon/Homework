@@ -1,0 +1,1 @@
+1. tạo 1 đối tượng animal. xác định đối tượng cat và dog đối với animal.
