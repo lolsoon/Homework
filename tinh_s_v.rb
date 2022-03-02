@@ -45,9 +45,19 @@ def main
     return "chu vi: #{chu_vi} \ndien tich: #{dien_tich}"
 
   when 2
-
+    puts "chieu dai canh"
+    canh_hinh_vuong = nhap_float
+    return "giá trị không đúng" if canh_hinh_vuong <= 0
+    chu_vi = canh_hinh_vuong*4
+    dien_tich = canh_hinh_vuong**2
+    return "chu_vi: #{chu_vi} \dien_tich: #{dien_tich}"
   when 3
-
+    puts "vui lòng nhập bán kính hình tròn"
+    ban_kinh = nhap_float
+    return "gia tri khong dung" if ban_kinh<=0
+    chu_vi = 2*3.14*ban_kinh
+    dien_tich = 3.14*chu_vi**2
+    return "chu_vi: #{chu_vi} \dien_tich: #{dien_tich}"
   else
     return "lua chon khong hop le"
   end

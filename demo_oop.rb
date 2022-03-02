@@ -54,6 +54,8 @@ op_1 = Car.new("green", 700, 800, 'suzuki')
 
 puts op_1.xyz
 
+class Animals
+  attr_accessor :
 
 
 
